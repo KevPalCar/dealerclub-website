@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - DealerClub | Conecta con Nosotros</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="index.html" class="logo-link">
+                <img src="assets/img/logo.png" alt="DealerClub Logo" class="logo">
+            </a>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="cursos.html" class="nav-link">Formación Profesional</a></li>
+                <li class="nav-item"><a href="contrata-dealers.html" class="nav-link">Contrata Dealers</a></li>
+                <li class="nav-item"><a href="sobre-nosotros.html" class="nav-link">Sobre Nosotros</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link current">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="animate-fade-in-up">Inicia tu Juego con Nosotros</h1>
+                <p class="animate-fade-in-up delay-1">¿Tienes preguntas, necesitas asesoría o buscas talento "A1"? Estamos listos para ayudarte.</p>
+                <div class="hero-ctas animate-fade-in-up delay-2">
+                    <a href="#contact-form-map-section" class="btn btn-primary scroll-down">Comenzar Ahora <i class="fas fa-arrow-down"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form-map-section" class="section-padded">
+            <div class="container">
+                <h2 class="section-title text-center animate-on-scroll fade-in-up">Conecta Directamente con DealerClub</h2>
+                <p class="section-subtitle text-center animate-on-scroll fade-in-up delay-1">Envíanos un mensaje, llámanos o visítanos. Estamos a tu disposición.</p>
+
+                <div class="contact-grid-main">
+                    <div class="contact-details animate-on-scroll fade-in-left">
+                        <h3>Nuestra Información</h3>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt icon-contact-sm"></i>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Av. Principal 123, San Martín de Porres</p>
+                                <p>Lima, Perú</p>
+                                <a href="https://maps.app.goo.gl/TUUBc7W61r1hSxdz9" target="_blank" class="btn-text-link">Ver en Mapa <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt icon-contact-sm"></i>
+                            <div>
+                                <h4>Teléfonos y WhatsApp</h4>
+                                <p>Atención al Cliente: <a href="tel:+51987654321">+51 987 654 321</a></p>
+                                <p>WhatsApp: <a href="https://wa.me/51987654321" target="_blank">+51 987 654 321</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope icon-contact-sm"></i>
+                            <div>
+                                <h4>Correos Electrónicos</h4>
+                                <p>General: <a href="mailto:info@dealerclub.pe">info@dealerclub.pe</a></p>
+                                <p>Soporte: <a href="mailto:soporte@dealerclub.pe">soporte@dealerclub.pe</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock icon-contact-sm"></i>
+                            <div>
+                                <h4>Horario de Atención</h4>
+                                <p>Lunes - Viernes: 9:00 AM - 6:00 PM</p>
+                                <p>Sábados: 9:00 AM - 1:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form animate-on-scroll fade-in-right">
+                        <h3>Envíanos un Mensaje</h3>
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Nombre Completo:</label>
+                                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico:</label>
+                                <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono (Opcional):</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+51 9XX XXX XXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Asunto:</label>
+                                <input type="text" id="subject" name="subject" placeholder="Consulta sobre cursos, contratación, etc." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Tu Mensaje:</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container animate-on-scroll fade-in-up delay-2">
+                    <h3 class="text-center">Encuéntranos en Google Maps</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.9996024922114!2d-77.0673426851897!3d-11.979601691456942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d15c8e31b1d7%3A0xf6b5d9e5b8e9b6e!2sAv.%20T%C3%BApac%20Amaru%20123%2C%20San%20Mart%C3%ADn%20de%20Porres%2015102!5e0!3m2!1sen!2spe!4v1678888888888!5m2!1sen!2spe"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq-section" class="section-padded">
+            <div class="container">
+                <h2 class="animate-on-scroll fade-in-up">Preguntas Frecuentes</h2>
+                <p class="section-subtitle text-center animate-on-scroll fade-in-up delay-1">Encuentra respuestas rápidas a las dudas más comunes sobre DealerClub.</p>
+
+                <div class="faq-grid-container"> <div class="faq-item animate-on-scroll fade-in-up delay-1">
+                        <button class="faq-question">
+                            ¿Cuáles son los requisitos para inscribirse en un curso?
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Generalmente, se requiere ser mayor de 18 años, tener secundaria completa y pasar una entrevista inicial. Algunos cursos avanzados pueden tener requisitos adicionales de experiencia previa. Te recomendamos revisar la página de cada curso para detalles específicos.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item animate-on-scroll fade-in-up delay-2">
+                        <button class="faq-question">
+                            ¿DealerClub ayuda con la inserción laboral después de graduarse?
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>¡Sí! En DealerClub nos enorgullece nuestra alta tasa de colocación. Contamos con una red de contactos en casinos, eventos y cruceros, y ofrecemos asesoramiento profesional para ayudarte a conseguir tu primer empleo en la industria.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item animate-on-scroll fade-in-up delay-3">
+                        <button class="faq-question">
+                            ¿Puedo contratar dealers para un evento privado o corporativo?
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutamente. Ofrecemos servicios de contratación de dealers profesionales y experimentados para fiestas privadas, eventos corporativos, ferias y cualquier ocasión que requiera un toque de casino de alta calidad. Visita nuestra sección "Contrata Dealers" para más información.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item animate-on-scroll fade-in-up delay-4">
+                        <button class="faq-question">
+                            ¿Qué diferencia a DealerClub de otras escuelas de croupiers?
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Nos distingue nuestra metodología de enseñanza práctica intensiva, instructores con experiencia internacional en cruceros, enfoque en la ética y el servicio al cliente, y nuestro compromiso con la inserción laboral de nuestros egresados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-cta text-center animate-on-scroll fade-in-up delay-5">
+                    <p>¿No encontraste la respuesta que buscas? ¡Contáctanos directamente!</p>
+                    <a href="#contact-form-map-section" class="btn btn-primary btn-small">Enviar tu Pregunta</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials-section" class="section-dark section-padded">
+            <div class="container">
+                <h2 class="section-title text-center animate-on-scroll fade-in-up">Lo que Dicen Nuestros Alumnos</h2>
+                <p class="section-subtitle text-center animate-on-scroll fade-in-up delay-1">Sus historias de éxito son nuestra mayor satisfacción.</p>
+
+                <div class="testimonial-grid">
+                    <div class="testimonial-item animate-on-scroll fade-in-up delay-2">
+                        <img src="assets/img/testimonial-placeholder-1.jpg" alt="Foto de Testimonio 1" class="testimonial-img">
+                        <p class="testimonial-text">"DealerClub superó mis expectativas. La formación es de primera y me ayudaron a conseguir mi primer trabajo en un crucero de lujo. ¡Totalmente recomendado!"</p>
+                        <p class="testimonial-author">**Ana Morales**</p>
+                        <p class="testimonial-role">Croupier de Ruleta, Cruceros Royal Gaming</p>
+                    </div>
+                    <div class="testimonial-item animate-on-scroll fade-in-up delay-3">
+                        <img src="assets/img/testimonial-placeholder-2.jpg" alt="Foto de Testimonio 2" class="testimonial-img">
+                        <p class="testimonial-text">"Gracias a DealerClub, mi sueño de trabajar en casinos se hizo realidad. Los instructores son increíbles y el ambiente de aprendizaje es inmejorable."</p>
+                        <p class="testimonial-author">**Carlos Paredes**</p>
+                        <p class="testimonial-role">Dealer de Blackjack, Casino Atlantic City</p>
+                    </div>
+                    <div class="testimonial-item animate-on-scroll fade-in-up delay-4">
+                        <img src="assets/img/testimonial-placeholder-3.jpg" alt="Foto de Testimonio 3" class="testimonial-img">
+                        <p class="testimonial-text">"Necesitaba personal para un evento VIP y DealerClub me proveyó dealers profesionales y carismáticos. ¡Mi evento fue un éxito rotundo!"</p>
+                        <p class="testimonial-author">**María Fernández**</p>
+                        <p class="testimonial-role">Organizadora de Eventos Corporativos</p>
+                    </div>
+                </div>
+                <div class="text-center animate-on-scroll fade-in-up delay-5 mt-4">
+                    <a href="sobre-nosotros.html#testimonios" class="btn btn-secondary">Ver Más Testimonios <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="social-media-section" class="section-padded text-center">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll fade-in-up">Conéctate con Nuestra Comunidad</h2>
+                <p class="section-subtitle animate-on-scroll fade-in-up delay-1">Mantente al tanto de las últimas noticias, eventos y ofertas.</p>
+                <div class="social-icons-large animate-on-scroll fade-in-up delay-2">
+                    <a href="https://facebook.com/dealerclub" target="_blank" class="social-icon-lg"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/dealerclub" target="_blank" class="social-icon-lg"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/company/dealerclub" target="_blank" class="social-icon-lg"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://youtube.com/dealerclub" target="_blank" class="social-icon-lg"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section contact-info">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Principal 123, San Martín de Porres, Lima</p>
+                    <p><i class="fas fa-phone"></i> +51 987 654 321</p>
+                    <p><i class="fas fa-envelope"></i> info@dealerclub.pe</p>
+                </div>
+                <div class="footer-section social-media">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><img src="assets/img/icon-facebook.png" alt="Facebook"></a>
+                        <a href="#" target="_blank"><img src="assets/img/icon-instagram.png" alt="Instagram"></a>
+                        <a href="#" target="_blank"><img src="assets/img/icon-linkedin.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+                <div class="footer-section quick-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="cursos.html">Nuestros Cursos</a></li>
+                        <li><a href="contrata-dealers.html">Contrata Dealers</a></li>
+                        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="contacto.html">Contáctanos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 DealerClub. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>
